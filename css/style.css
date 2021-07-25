@@ -1,22 +1,39 @@
-.button{
-    margin: auto;
-    padding:10px;
-    color: white;
-    font-size: 1rem;
-    font-weight: 500;
-    background-color: black;
-    border: none;
+.button {
+  margin: auto;
+  padding: 10px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: black;
+  border: none;
 }
-.footer{
-    background-color: #F2F8FC;
+.footer {
+  background-color: #f2f8fc;
 }
 
-.footer-size{
-    height: 606px;
+.footer-size {
+  height: 606px;
 }
 .link a {
-color: black;
+  color: black;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
+}
+h3:hover {
+  color: rgb(255, 82, 14);
+  font-size: 2em;
+}
+.title-details:hover {
+  color: rgb(126, 8, 236);
+  font-size: 17px;
+}
+.link a:hover {
+  color: rgb(218, 54, 54);
+}
+.details p:hover {
+  color: rgba(61, 65, 66, 0.616);
+}
+h4:hover {
+  color: rgba(131, 125, 125, 0.616);
 }
