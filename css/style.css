@@ -1,0 +1,22 @@
+.button{
+    margin: auto;
+    padding:10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: black;
+    border: none;
+}
+.footer{
+    background-color: #F2F8FC;
+}
+
+.footer-size{
+    height: 606px;
+}
+.link a {
+color: black;
+}
+li{
+    list-style: none;
+}

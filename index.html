@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awasome -->
+    <script
+      src="https://kit.fontawesome.com/20854333fe.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- fave-icon -->
     <link
       rel="shortcut icon"
@@ -25,7 +30,7 @@
     <!-- header start -->
     <header>
       <!-- navigation -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
           <div>
             <a class="navbar-brand font-monospace ms-2" href="#">
@@ -57,13 +62,14 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SHOP</a>
+                <a class="nav-link" href="#women'fashion">WOMEN FASHION</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">LOOKBOOK</a>
+                <a class="nav-link" href="#men's fashion">MEN FASHION
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">FEATURES</a>
+                <a class="nav-link" href="#features">FEATURES</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">PAGES</a>
@@ -77,7 +83,7 @@
       </nav>
     </header>
     <!-- banner-part -->
-    <section class="container-fluid d-flex position-relative">
+    <section class=" mt-5 pt-2 container-fluid d-flex position-relative">
       <div class="w-100">
         <img class="img-fluid vw-100" src="images/banner.jpg" alt="" />
       </div>
@@ -122,7 +128,7 @@
       </section>
       <!-- women's fashion-blogs -->
 
-      <section class="container">
+      <section id="women'fashion" class="container">
         <div class="mb-5 mt-5">
           <h3 class="text-center fw-bolder">WOMEN’S FASHION</h3>
           <p class="text-center">
@@ -230,7 +236,7 @@
         </div>
       </section>
       <!-- men's fashion blogs -->
-      <section class="container">
+      <section id="men's fashion" class="container">
         <div class="mb-5 mt-5">
           <h3 class="text-center fw-bolder">MEN’S FASHION</h3>
           <p class="text-center">
@@ -337,10 +343,113 @@
           </div>
         </div>
       </section>
-    </main>
+      <!-- Avone Styles -->
+      <section class="container position-relative">
+        <div class="mb-5 mt-5">
+          <h3 class="text-center fw-bolder">AVONE FASHION</h3>
+          <p class="text-center">Choose Your Favorite Color</p>
+        </div>
+        <div class="d-flex align-self-baseline p-sm-4">
+          <div>
+            <img
+              class="img-fluid w-75"
+              src="images/styles-fashion/styles-1.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="img-fluid w-75"
+              src="images/styles-fashion/styles-2.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="img-fluid w-100"
+              src="images/styles-fashion/styles-3.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- footer-blog -->
+      <section  id="features" class="container-fluid mt-5 position-relative">
+        <div class="">
+          <img class="img-fluid vw-100" src="images/footbanner.jpg" alt="" />
+        </div>
+        <div class="position-absolute top-50 start-0 translate-middle-y ms-5">
+          <span>OWN THE DAY</span>
+          <h1 class="fw-bolder">TACHEN 19</h1>
 
+          <button class="button"><span>SHOP COLLECTION</span></button>
+        </div>
+      </section>
+    </main>
+<!-- footer-section -->
+    <section
+      class="
+      container
+        container-fluid
+        d-flex
+        justify-content-center
+        align-items-center
+        mt-5
+        flex-lg-row
+        flex-column
+        flex-md-column-reverse
+        flex-sm-column
+       flex-sm-column-reverse
+        
+        
+      "
+    >
+      <div class="half-width w-50">
+        <h4>
+          <img
+            src="images/fashion-icon.png"
+            height="28px"
+            width="35px"
+            alt=""
+          />FASHION
+        </h4>
+        <p>
+          We earned a reputation of being good at what we do. Let us take your
+          online shop to new dimension in success!
+        </p>
+        <p>Dhaka,Bangladesh.</p>
+        <h5>abc22@gmail.com</h5>
+        <p>01615445...</p>
+        <div class="d-flex link">
+          <a href=""><i class="fab fa-facebook me-2"></i></a>
+          <a href=""><i class="fab fa-twitter me-2"></i></a>
+          <a href=""><i class="fab fa-linkedin-in me-2"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+     
+        <div class=" mb-md-5 mt-sm-5 mb-sm-5 mt-5">
+          <h5 class="mt-md-3">RECIVE EMAIL UPDATES</h5>
+          <form class="" action="">
+            <input
+              class="form-control"
+              type="email"
+              placeholder="Your Email Address"
+              name=""
+              id=""
+            />
+           <button class="btn btn-danger mt-3 ">Join</button>
+          </form>
+        </div>
+     
+    </section>
     <!-- footer part -->
-    <footer></footer>
+    <footer class="container-fluid bg-secondary p-4 mt-5 ">
+      <p class="text-center">
+        Copyright &copy; 2020 . Fashion All rights reserved
+      </p>
+    </footer>
+
     <!-- js link -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
